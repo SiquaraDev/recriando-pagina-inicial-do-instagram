@@ -140,8 +140,8 @@ body {
     background-image: url('./img/googleplay-button.png');
 }
 
-/* media queries */
 
+/* media queries */
 
 @media (max-width: 1024px) {
     .instagram-wrapper {
@@ -149,9 +149,11 @@ body {
     }
 }
 
+
 @media (max-width: 650px) {
     body {
         background-color: #ffffff;
+        min-width: 370px;
     }
 
     .instagram-wrapper {
